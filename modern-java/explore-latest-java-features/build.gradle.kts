@@ -2,7 +2,7 @@ plugins {
     id("java")
 }
 
-group = "com.modernjava"
+group = "org.example"
 version = ""
 
 
@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    //jackson for custom serdes
+    //jackson for json serialization/deserialization
     implementation("com.fasterxml.jackson.core:jackson-databind:2.14.1")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.1")
 

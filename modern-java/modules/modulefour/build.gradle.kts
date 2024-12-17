@@ -2,7 +2,7 @@ plugins {
     id("java")
 }
 
-group = "com.modernjava"
+group = "org.example"
 version = ""
 
 
