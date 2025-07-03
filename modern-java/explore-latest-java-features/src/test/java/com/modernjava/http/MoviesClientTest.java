@@ -11,4 +11,9 @@ public class MoviesClientTest {
 
     MoviesClient moviesClient = new MoviesClient();
 
+    @Test
+    public void getMovieById() {
+        var movie = moviesClient.getMovieById();
+        assertNotNull(movie);
+    }
 }

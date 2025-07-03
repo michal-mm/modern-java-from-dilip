@@ -13,7 +13,7 @@ public class CheckoutService {
 
     public CheckOutStatus checkoutOrder(OrderDetails orderDetails){
 
-        var paymentResponse = paymentService.makePaymentv2(orderDetails);
+        var paymentResponse = paymentService.makePayment(orderDetails);
         if(paymentResponse.equals(PaymentResponse.SUCCESS)){
             return CheckOutStatus.SUCCESS;
         }
